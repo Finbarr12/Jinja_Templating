@@ -3,5 +3,5 @@ PRODUCTS = {
 'galaxy': { 'name': 'Samsung Galaxy 5', 'category': 'Phones', 'price': 649, }, 
 'ipad-air': { 'name': 'iPad Air', 'category': 'Tablets', 'price': 649, }, 
 'ipad-mini': { 'name': 'iPad Mini', 'category': 'Tablets', 'price': 549 },
-'android': { 'name': 'Infinix note40i', 'category': 'Phones', 'price': 400 }
+'android': { 'name': 'Infinix Note40i', 'category': 'Phones', 'price': 400 }
 }
