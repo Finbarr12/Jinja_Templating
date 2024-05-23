@@ -8,6 +8,13 @@ def welcome():
     return 'Welcome to Our Store'
 
 
+@products.route("/allproducts")
+def allProducts():
+    allproduces = PRODUCTS
+
+    return render_template("index.html",productsComplete = allproduces)
+
+
 @products.route ("/product/<key>")
 def getProducts(key):
     product = PRODUCTS.get(key)
